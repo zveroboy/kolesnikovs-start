@@ -24,3 +24,5 @@ Goals:
 N. Начать получать доход
 2. Typescript
 3. Blockchain
+
+-------создал ветку titurial------
