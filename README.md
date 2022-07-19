@@ -11,7 +11,7 @@ Goals:
     2.0.5 - array
     2.0.6 - object
     2.0.7 - class
-    2.0.7 - promise
+    2.0.8 - promise, async/await
 
   2.2 FE
     2.1.1 React 
