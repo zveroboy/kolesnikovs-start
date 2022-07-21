@@ -13,6 +13,8 @@ Goals:
 
   - 2.0.3 - for(), for…of, for…in, while
 
+  - 2.0.4 - try…catch
+
   - 2.0.4 - functions
       
   - 2.0.5 - array
