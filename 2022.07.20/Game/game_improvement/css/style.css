@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    box-sizing: border-box;
+    
+  }
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+  body{
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #102746;
+  }
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+body {
+    background: url(../img/background.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.header {
+    position: absolute;
+    width: 100%;
+    background: green;
+}
+ .wrapper{
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 15px; 
+ }
+
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px 0;
+   }
+
+   .logo {
+	display: flex;
+	left: 0;
+	color: #fff;
+    align-items: center;
+	font-family:sans-serif;
+	font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+}
+.logo_type {
+	width: 50px;
+	height: 50px;
+	border: 3px solid;
+	border-radius: 99999px;
+}
+.logo_type-text {
+	margin-top: -7px;
+}
+
+.level {
+    margin-bottom: 8px;
+}
+.level_text{
+    color: yellow;
+    font-size: 26px;
+}
+.level_text-numb {
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+.lang-button {
+    display: flex;
+    margin-bottom: 6px;
+}
+.lang {
+    display: flex;
+    align-items: center;
+}
+.flag {
+    width: 60px;
+    height: 40px;
+}
+.flag-ru {
+    background-color: red;
+}
+.flag-en {
+    background-color: blue;
+}
+.signature {
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.game {
+    padding-top: 80px;
+    height: 100vh;
+}
+.title {
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.heading {
+    text-align: center;
+    font-size: 160px;
+	font-family:sans-serif;
+	font-weight: 900;
+    color: rgb(235, 25, 95);
+}
+.narration{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+.question {
+    display: table-cell;
+    vertical-align: middle;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(223, 223, 108);
+    border-radius: 60px;
+}
+.task_game {
+    text-align: center;
+    font-size: 32px;
+    color: blue;
+}
+.form {
+    margin-top: 24px;
+}
+.input {
+    display: block;
+}
+.input_answer {
+    width: 300px;
+    height: 100px;
+    margin-left: 100px;
+    text-align: center;
+    color: purple;
+    background-color: rgb(135, 218, 41);
+    font-size: 42px;
+    border-radius: 32px;
+    border: none;
+    margin-bottom: 24px;
+}
+.input_start {
+    margin: 0 auto;
+    width: 200px;
+    height: 80px;
+    border-radius: 32px;
+    background-color: rgb(243, 169, 10);
+    border-color: rgb(230, 72, 72);
+    font-size: 42px;
+}
+.input_start:hover {
+    background-color: rgb(243, 29, 10); 
+}
+.animal {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
